@@ -12,4 +12,5 @@ exports.getListAll = function(req, res, next) {
         console.log(results);
         res.render('shop', {title: 'Shop Page', orders: results});
     });
+    
 }
